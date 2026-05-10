@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 36px 32px;
+  width: 100%;
+  max-width: 460px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #1a1a2e;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.search-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 14px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.2s;
+  background-color: #f9f9f9;
+}
+
+.input:focus {
+  border-color: #4a90e2;
+  background-color: #fff;
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+  background-color: #357abd;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.message-box {
+  text-align: center;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  margin-top: 4px;
+}
+
+.message {
+  font-size: 14px;
+  color: #888;
+}
+
+.error {
+  color: #e74c3c;
+}
+
+.weather-box {
+  margin-top: 8px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1.5px solid #eee;
+}
+
+.weather-top {
+  background: linear-gradient(135deg, #4a90e2, #6ab0f5);
+  padding: 28px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.weather-emoji {
+  font-size: 52px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.city-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.condition {
+  font-size: 14px;
+  text-transform: capitalize;
+  opacity: 0.85;
+  margin-bottom: 10px;
+}
+
+.temp {
+  font-size: 58px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px;
+  background-color: #f9fbff;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.detail-emoji {
+  font-size: 20px;
+}
+
+.detail-label {
+  font-size: 11px;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detail-value {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.footer {
+  font-size: 12px;
+  color: #aaa;
+}
