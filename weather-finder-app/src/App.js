@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./index.css";
 
-const API_KEY = "2c088f72877a8c2f85dc8bc1215fa849";
+const API_KEY = "8481b233bf6ea11753556b5318fdb106";
 
 function App() {
 
